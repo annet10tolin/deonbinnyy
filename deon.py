@@ -1,6 +1,10 @@
-# Program to generate a random number between 0 and 9
+# This program adds two numbers
 
-# importing the random module
-import random
+num1 = 1.5
+num2 = 6.3
 
-print(random.randint(0,9))
+# Add two numbers
+sum = num1 + num2
+
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
